@@ -4,7 +4,7 @@ import joblib
 
 model = joblib.load('KNN.heart.pkl')
 scaler = joblib.load('scaler.pkl')
-columns = joblib.load('columns.pkl')
+expected_columns = joblib.load('columns.pkl')
 
 st.title('Heart stroke predicition by MUKUL ❤️')
 st.markdown("Provide the Following Details")
